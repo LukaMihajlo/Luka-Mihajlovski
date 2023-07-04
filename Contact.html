@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Contact </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <hr/>
+    <div id="nav" style="height: 50px; font-size: 25px; align-items: center">
+        <span style="font-weight: bold; position: relative; top: 7px;left:13%">Luka's<span style="color:#fdcbcb;padding-left: 10px;font-weight:bold "> Blog</span></span>
+        <table style="float: right; border: none">
+            <tr>
+                <td><a href="index.html"> ABOUT ME </a></td>
+                <td><a href="Education.html"> EDUCATION </a></td>
+                <td><a href="Future.html"> FUTURE </a></td>
+                <td id="active"><a href="Contact.html"> CONTACT </a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="contact" style="background: #fdcbcb; height: 900px; text-align: center">
+        <div style="font-weight: bold; margin-bottom: 30px;letter-spacing: 4px;word-spacing: 8px"> Contact me! </div>
+        <form>
+            <table id="form">
+                <tr>
+                    <td>
+                        <label> First Name </label>
+                        <input type="text" value="Your name..">
+                    </td>
+                    <td>
+                        <label> Last Name </label>
+                        <input type="text" value="Your last name..">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Date of birth </label>
+                        <input type="date"  >
+                    </td>
+                    <td rowspan="3">
+                        <label> Subject </label>
+                        <textarea>Write something..</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Country </label>
+                        <select>
+                            <option> Macedonia </option>
+                            <option> Niger </option>
+                            <option> USA </option>
+                            <option> Australia </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CV <input type="file" name="Choose File">
+                    </td>
+                </tr>
+            </table>
+            <input type="Submit">
+        </form>
+
+    </div>
+
+</body>
+</html>

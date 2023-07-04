@@ -1,0 +1,189 @@
+#nav {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial;
+}
+#nav table tr td {
+    padding: 12px 35px;
+    font-size: 15px;
+    font-family: Arial;
+}
+td a:link {
+    color: #515878;
+    font-weight: bold;
+}
+td a:visited {
+    color: #515878;
+}
+#active {
+    background: #515878;
+    border-radius: 5px;
+}
+#active a:link {
+    color: white;
+}
+#active a:visited {
+    color: white;
+}
+#table {
+    border: medium solid black;
+    border-collapse: collapse;
+    font-family: Arial, serif;
+
+}
+#table tbody {
+    position: relative;
+    top: 40px;
+
+}
+#table tr td {
+    border: medium solid black;
+    border-collapse: collapse;
+    font-family: Arial, serif;
+}
+div, span {
+    font-family: Arial, serif;
+}
+#home {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a {
+    text-decoration: none;
+}
+#contact {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#form {
+    height: 300px;
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 7%;
+    background: #f2f3f3;
+    height: 350px;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+form table{
+    height: 100%;
+    width: 100%;
+    border-spacing: 10px;
+}
+form td {
+    width: 550px;
+    text-align: left;
+    height: 50px;
+}
+input[type=text] {
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: darkgray;
+}
+input[type=date] {
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+select {
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: darkgray;
+}
+input[type=submit] {
+    background: #04ab6c;
+    color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+    border: none;
+}
+#info {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#container {
+    background: #f2f3f3;
+    height: 1000px;
+    border-radius: 5px;
+    padding: 30px;
+}
+#firstp,#secondp,#thirdp {
+    width: 300px;
+    line-height: 25px;
+    font-size: 19px;
+    float: right;
+    margin-right: 13%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 9px;
+    background: #d7101c;
+    display: inline-block;
+    color: white;
+    margin-top: 40px;
+}
+.lebron {
+    position: relative;
+    left:-90px;
+    top:-185px
+}
+#bron {
+    background: white;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-right: -300px;
+}
+#secondp {
+  margin-right: -170px;
+    margin-top: 200px;
+    background: #181070;
+}
+#thirdp {
+    margin-right: -180px;
+    margin-top: 290px;
+    background: #5a1e80;
+}
+
+#table2 span{
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 10px;
+    padding-bottom:40px;
+    display: inline-block;
+    float: right;
+    color: white;
+    font-weight: bold;
+}
+#table2 {
+    margin: auto;
+    padding-top: 30px;
+}
+#table2 td:last-of-type {
+    padding-left: 0px;
+}
